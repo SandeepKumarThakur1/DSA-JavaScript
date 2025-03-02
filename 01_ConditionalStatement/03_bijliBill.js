@@ -13,3 +13,6 @@ if (unit <= 200 && unit > 100) {
   amount += (unit - 100) * 8;
   unit = 100;
 }
+
+amount += unit * 4;
+console.log(amount);
